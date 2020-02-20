@@ -107,12 +107,12 @@
                   title="美团app"
                   alt="美团app"
                 />
-                <a href="#">
-                  <img
-                    alt="美团app"
-                    src="//img4.sycdn.imooc.com/szimg/5baf3f0a000180df06000338-360-202.jpg"
-                  />
-                </a>
+              </a>
+              <a href="#">
+                <img
+                  alt="美团app"
+                  src="//img4.sycdn.imooc.com/szimg/5baf3f0a000180df06000338-360-202.jpg"
+                />
               </a>
             </dd>
           </dl>
