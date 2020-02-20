@@ -83,7 +83,7 @@ export default {
       isFocus: false,
       search: '',
       hotPlace: ['火锅', '麻辣烫', '川菜', '杭帮菜'],
-      searchList: ['飞机', '炸弹', '坦克', '火箭炮']
+      searchList: ['飞机', '炸弹', '坦克', '火箭炮', '反坦克导弹']
     }
   },
 
