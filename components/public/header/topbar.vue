@@ -13,17 +13,16 @@
 </template>
 
 <script>
-import Geo from './geo.vue'
-import User from './user.vue'
-import Navbar from './nav.vue'
+import Geo from "./geo.vue";
+import User from "./user.vue";
+import Navbar from "./nav.vue";
 export default {
   components: {
     Navbar,
     Geo,
     User
-
   }
-}
+};
 </script>
 
 <style lang="scss">
