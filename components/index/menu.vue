@@ -28,6 +28,10 @@ export default {
       {
         type: 'movie',
         name: '电影院'
+      },
+      {
+        type: 'movie',
+        name: '电影院'
       }
       ]
     }
