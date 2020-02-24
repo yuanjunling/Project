@@ -1,22 +1,15 @@
 <template>
   <div class="m-menu">
-    <dl class="nav"
-        @mouseleave="mouseleave">
+    <dl class="nav" @mouseleave="mouseleave">
       <dt>全部分类</dt>
-      <dd v-for="(item, idx) in menu"
-          :key="idx"
-          @mouseenter="enter">
+      <dd v-for="(item, idx) in menu" :key="idx" @mouseenter="enter">
         <i :class="item.type" />{{ item.name }}<span class="arrow" />
       </dd>
     </dl>
-    <div class="detail"
-         v-if="kind"
-         @mouseleave="sout"
-         @mouseenter="sover">
-      <template v-for="(item,idx) in curdetail.child">
-        <h4 :key="idx">{{item.title}}</h4>
-        <span v-for="v in item.child"
-              :key="v">{{v}}</span>
+    <div class="detail" v-if="kind" @mouseleave="sout" @mouseenter="sover">
+      <template v-for="(item, idx) in curdetail.child">
+        <h4 :key="idx">{{ item.title }}</h4>
+        <span v-for="v in item.child" :key="v">{{ v }}</span>
       </template>
     </div>
   </div>
@@ -47,6 +40,9 @@ export default {
         type: 'hotel',
         name: '酒店',
         child: [{
+          title: '假日酒店',
+          child: ['名宿', '星级酒店 ', '豪华酒店135']
+        }, {
           title: '假日酒店',
           child: ['名宿', '星级酒店 ', '豪华酒店135']
         }]
